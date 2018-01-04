@@ -8,3 +8,6 @@
 * [The Flask Mega-Tutorial (ebook)](https://learn.miguelgrinberg.com/)
 
 Сегодня начала первую.
+
+Время: 1 час чтение "Python Testing with pytest"
+
