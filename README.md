@@ -1,6 +1,6 @@
 # I've joined the #100DaysOfCode Challenge.
 
-## [Лог моих занятий 100 days of Python](log.md)
+## [Лог моих занятий 100 days of Python](https://natenka.github.io/100daysofpython/)
 
 ## Правила
 
