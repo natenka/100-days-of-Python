@@ -1,3 +1,4 @@
 {
+  "tasks/test_four.py::test_replace": true,
   "test_two.py::test_failing": true
 }
