@@ -2,6 +2,7 @@
 
 import pytest
 import tasks
+from tasks import Task
 
 
 def test_add_raises():
@@ -52,3 +53,10 @@ def test_start_tasks_db_raises():
         tasks.start_tasks_db('some/great/path', 'mysql')
     exception_msg = excinfo.value.args[0]
     assert exception_msg == "db_type must be a 'tiny' or 'mongo'"
+
+
+def test_task_duplicate_id():
+     with pytest.raises(ValueError):
+         tasks.add(Task('exercise', 'Brian', False, 15))
+
+
