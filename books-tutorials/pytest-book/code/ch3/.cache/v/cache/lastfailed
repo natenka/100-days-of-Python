@@ -1,0 +1,4 @@
+{
+  "test_fixtures.py::test_a_tuple": true,
+  "test_fixtures.py::test_other_data": true
+}
