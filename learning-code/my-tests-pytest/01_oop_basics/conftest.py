@@ -25,3 +25,13 @@ def normalized_topology_example():
                            ('R3', 'Eth0/2'): ('R5', 'Eth0/0')}
     return normalized_topology
 
+
+#Fixtures can introspect the requesting test context
+@pytest.fixture(scope='module')
+def ssh_r1(request):
+    ssh_class = getattr(request.module, "CiscoSSH")
+    r1 = ssh_class('cisco', 'cisco', 'cisco', '192.168.100.1')
+    yield r1
+    r1.ssh.disconnect()
+
+

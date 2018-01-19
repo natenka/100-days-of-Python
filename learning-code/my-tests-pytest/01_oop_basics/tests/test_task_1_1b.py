@@ -1,6 +1,12 @@
 import pytest
 from task_1_1b import Topology
+import warnings
 
+stdout_incorrect_warning = '''
+Сообщение отличается от указанного в задании.
+Должно быть: {}
+А выведено: {}
+'''
 
 
 def test_attr_topology(topology_with_dupl_links):
@@ -32,5 +38,7 @@ def test_method_delete_link(normalized_topology_example, capsys):
     #проверка удаления несуществующего линка
     norm_top.delete_link(('R8', 'Eth0/2'), ('R9', 'Eth0/1'))
     out, err = capsys.readouterr()
-    assert out == 'Такого соединения нет\n'
+    link_msg = 'Такого соединения нет\n'
+    if not out == link_msg:
+        warnings.warn(UserWarning(stdout_incorrect_warning.format(link_msg, out)))
 
