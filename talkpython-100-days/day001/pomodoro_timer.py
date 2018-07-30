@@ -1,7 +1,7 @@
 #TODO
 #live view timer
-#info in shell prompt about time
-#notification about break
+#break notification
+#click/argparse cli
 
 import argparse
 from datetime import datetime, date, timedelta
