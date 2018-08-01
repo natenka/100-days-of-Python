@@ -19,7 +19,7 @@ def print_red(message):
 
 def run_timer_with_live_stdout_update(minutes: int, message: str):
     start = datetime.now().replace(microsecond=0)
-    for minute in range(1, minutes+1):
+    for second in range(1, (minutes*60)+1):
         time.sleep(1)
         now = datetime.now().replace(microsecond=0)
         sys.stdout.write(f"\r{message}: {now-start}")
