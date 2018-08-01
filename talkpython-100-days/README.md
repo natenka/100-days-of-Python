@@ -52,3 +52,17 @@ tags:
 <img src="https://cdn.rawgit.com/natenka/100-days-of-Python/7fd02998/talkpython-100-days/day002/pomodoro_timer_run_animation.svg" width="800">
 
 Время: 1 час 30 минут код
+
+## Day 3: August 1, 2018
+
+Завершила работу над [таймером Pomodoro](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day003/pomodoro_timer.py). Сегодня добавила интерфейс командной строки. Остановилась на click.
+Теперь все параметры можно указывать при вызове скрипта.
+
+Пока оставила на будущее оповещения и обошлась добавлением цвета в вывод. Плюс теперь таймер уже полноценно работает по минутам, а не секундам.
+
+Пример выполнения скрипта с секундными интервалами (записан с помощью [termtosvg](https://github.com/nbedos/termtosvg)):
+
+<img src="https://cdn.rawgit.com/natenka/100-days-of-Python/9cbc94c6/talkpython-100-days/day003/pomodoro_timer_run_animation.svg" width="800">
+
+Время: 1 час 20 минут код
+
