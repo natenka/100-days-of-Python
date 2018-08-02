@@ -66,3 +66,15 @@ tags:
 
 Время: 1 час 20 минут код
 
+## Day 4: August 2, 2018
+
+Начала следующую [тройку дней](https://github.com/talkpython/100daysofcode-with-python-course/blob/master/days/04-06-collections/collections.ipynb), тема - модуль collections.
+Посмотрела лекции и сделала задание [Code Challenge 13 - Highest Rated Movie Directors](https://pybit.es/codechallenge13.html). Задание в целом простое, но соображаю я сегодня хуже, чем обычно, так что времени ушло больше.
+
+Следующие два дня буду заниматься разбором логов FCC с информацией о том, кто был на лекции онлайн. В итоге хочу получить сводку с информацией о том, кто ходит на лекции чаще всего.
+
+Время:
+
+* 15 минут видео
+* 2 часа код
+
