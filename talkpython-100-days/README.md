@@ -90,6 +90,34 @@ tags:
 Позже в курсе будут темы связанный со скарпингом HTML страниц, так что отложила этот аспект на потом.
 Возможно, в следующие дни займусь сбором информации из нескольких отчетов и сводной статистикой по посещению лекций онлайн.
 
+На данный момент скрипт из такого отчета:
+```
+Caller,Service Type,Start Date and Time,End Date and Time,Duration
+jane@example.com - Jane Austen,VoIP,2018-07-01 09:49:33 +0300,2018-07-01 13:16:09 +0300,207m
+markt@example.com - Mark Twain,VoIP,2018-07-01 09:57:35 +0300,2018-07-01 13:16:10 +0300,199m
+charles.dickens@example.com - Charles Dickens,VoIP,2018-07-01 10:00:10 +0300,2018-07-01 13:00:21 +0300,180m
+Homer,VoIP,2018-07-01 12:37:06 +0300,2018-07-01 13:16:11 +0300,40m
+william@example.com - William Shakespeare,VoIP,2018-07-01 09:58:10 +0300,2018-07-01 13:16:12 +0300,198m
+dumas1802@example.com - Alexandre Dumas,VoIP,2018-07-01 09:51:18 +0300,2018-07-01 13:16:12 +0300,205m
+Jules.Verne@example.com - Jules Verne,VoIP,2018-07-01 09:58:13 +0300,2018-07-01 13:16:12 +0300,198m
+dumas1802@example.com - Alexandre Dumas,VoIP,2018-07-01 13:18:28 +0300,2018-07-01 13:21:32 +0300,3m
+charles.dickens@example.com - Charles Dickens,VoIP,2018-07-01 13:00:20 +0300,2018-07-01 13:16:11 +0300,16m
+
+```
+
+Генерирует такую таблицу
+```
+name                 email                          duration  first seen           last seen
+-------------------  ---------------------------  ----------  -------------------  -------------------
+Alexandre Dumas      dumas1802@example.com               208  2018-07-01 09:51:18  2018-07-01 13:21:32
+Jane Austen          jane@example.com                    207  2018-07-01 09:49:33  2018-07-01 13:16:09
+Mark Twain           markt@example.com                   199  2018-07-01 09:57:35  2018-07-01 13:16:10
+William Shakespeare  william@example.com                 198  2018-07-01 09:58:10  2018-07-01 13:16:12
+Jules Verne          Jules.Verne@example.com             198  2018-07-01 09:58:13  2018-07-01 13:16:12
+Charles Dickens      charles.dickens@example.com         196  2018-07-01 10:00:10  2018-07-01 13:16:11
+Homer                                                     40  2018-07-01 12:37:06  2018-07-01 13:16:11
+```
+
 Время: 3 часа код
 
 ## Идеи скриптов
