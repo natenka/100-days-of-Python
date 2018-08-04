@@ -98,8 +98,10 @@ def lecture_stats(csv_file):
 
 
 def pprint_lecture_report(stats):
-    for caller, call in stats:
-        print('{:20} {:40} {}'.format(caller.name, caller.email, call.duration))
+    headers = ('name', 'email', 'duration', 'first seen', 'last seen')
+    report_stats = [(caller.name, caller.email, call.duration, call.first_seen, call.last_seen)
+                    for caller, call in stats]
+    print(tabulate(report_stats, headers=headers))
 
 
 
@@ -111,11 +113,14 @@ if __name__ == "__main__":
 
 '''
 $ python parse_fcc_csv_report.py
-Jane Austen          jane@example.com                         207
-Alexandre Dumas      dumas1802@example.com                    205
-Mark Twain           markt@example.com                        199
-William Shakespeare  william@example.com                      198
-Jules Verne          Jules.Verne@example.com                  198
-Homer                                                         40
-Charles Dickens      charles.dickens@example.com              16
+name                 email                          duration  first seen           last seen
+-------------------  ---------------------------  ----------  -------------------  -------------------
+Jane Austen          jane@example.com                    207  2018-07-01 09:49:33  2018-07-01 13:16:09
+Alexandre Dumas      dumas1802@example.com               205  2018-07-01 09:51:18  2018-07-01 13:16:12
+Mark Twain           markt@example.com                   199  2018-07-01 09:57:35  2018-07-01 13:16:10
+William Shakespeare  william@example.com                 198  2018-07-01 09:58:10  2018-07-01 13:16:12
+Jules Verne          Jules.Verne@example.com             198  2018-07-01 09:58:13  2018-07-01 13:16:12
+Homer                                                     40  2018-07-01 12:37:06  2018-07-01 13:16:11
+Charles Dickens      charles.dickens@example.com          16  2018-07-01 13:00:20  2018-07-01 13:16:11
 '''
+
