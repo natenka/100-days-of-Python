@@ -50,22 +50,23 @@ def convert_timestamp(timestamp):
     return regex.search(timestamp).group(1)
 
 
-def parse_csv_to_list_of_records(filename):
+def convert_record_timestamp(record):
+    record = record._replace(
+        start_time=convert_timestamp(record.start_time),
+        end_time=convert_timestamp(record.end_time))
+    return record
+
+
+def organise_records_by_caller(filename):
     Record = namedtuple('Record',
                         'caller service_type start_time end_time duration')
     with open(filename) as f:
-        all_records = [Record(*row) for row in csv.reader(f)]
-    return all_records
+        records = [Record(*row) for row in csv.reader(f)]
 
-
-def organise_records_by_caller(records):
     voip_calls_dict = defaultdict(list)
     for record in records:
         if record.service_type == 'VoIP':
-            record = record._replace(
-                start_time=convert_timestamp(record.start_time),
-                end_time=convert_timestamp(record.end_time))
-            voip_calls_dict[record.caller].append(record)
+            voip_calls_dict[record.caller].append(convert_record_timestamp(record))
     return voip_calls_dict
 
 
@@ -73,17 +74,14 @@ def merge_calls_to_single_record(calls):
     CallSummary = namedtuple('CallSummary',
                              'first_seen last_seen duration')
     sorted_calls = sorted(calls)
-    total_duration = 0
     first_seen = sorted_calls[0].start_time
-    for call in sorted_calls:
-        total_duration += int(call.duration.strip('m'))
-    last_seen = call.end_time
+    last_seen = sorted_calls[-1].end_time
+    total_duration = sum([int(call.duration.strip('m')) for call in sorted_calls])
     return CallSummary(first_seen, last_seen, total_duration)
 
 
 def csv_to_record_dict(csv_file):
-    records_list = parse_csv_to_list_of_records(csv_file)
-    records_dict = organise_records_by_caller(records_list)
+    records_dict = organise_records_by_caller(csv_file)
 
     merged_dict = {}
     for caller_str, calls in records_dict.items():
