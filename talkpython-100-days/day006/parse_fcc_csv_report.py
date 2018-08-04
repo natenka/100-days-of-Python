@@ -109,3 +109,13 @@ if __name__ == "__main__":
 
     pprint_lecture_report(lecture_stats(csv_file))
 
+'''
+$ python parse_fcc_csv_report.py
+Jane Austen          jane@example.com                         207
+Alexandre Dumas      dumas1802@example.com                    205
+Mark Twain           markt@example.com                        199
+William Shakespeare  william@example.com                      198
+Jules Verne          Jules.Verne@example.com                  198
+Homer                                                         40
+Charles Dickens      charles.dickens@example.com              16
+'''
