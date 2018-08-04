@@ -2,6 +2,9 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+#sensitive data
+fcc_csv_data/
+
 # Vim undo files. Python#
 # #######################
 *.un~
