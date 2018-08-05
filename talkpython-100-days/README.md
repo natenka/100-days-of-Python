@@ -120,6 +120,12 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Время: 3 часа код
 
+## Day 7: Aug 5, 2018
+
+Сегодня только лекции. Посмотрела лекции по 7 дню и начала смотреть курс [Write Pythonic Code Like a Seasoned Developer](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer)
+
+Время: 1.5 часа лекции
+
 ## Идеи скриптов
 
 * разбор логов FCC по присутствию на лекциях
