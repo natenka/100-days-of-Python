@@ -132,6 +132,14 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Время: 50 минут код
 
+## Day 9: Aug 7, 2018
+
+Решила 9 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day009) и продолжаю слушать курс [Write Pythonic Code Like a Seasoned Developer](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer).
+
+Время:
+
+* 1 час видео
+* 1.5 часа код
 
 ## Идеи скриптов
 
