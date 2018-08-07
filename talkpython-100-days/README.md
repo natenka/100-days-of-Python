@@ -126,6 +126,13 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Время: 1.5 часа лекции
 
+## Day 8: Aug 6, 2018
+
+Решила 4 задачки [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day008)
+
+Время: 50 минут код
+
+
 ## Идеи скриптов
 
 * разбор логов FCC по присутствию на лекциях
