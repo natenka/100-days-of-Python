@@ -147,6 +147,11 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Время: 1 час лекции
 
+## Day 11: Aug 9, 2018
+
+Решила 6 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day011)
+
+Время: 1 час код
 
 ## Идеи скриптов
 
