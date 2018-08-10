@@ -153,6 +153,12 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Время: 1 час код
 
+## Day 12: Aug 10, 2018
+
+Решила 6 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day012)
+
+Время: 1 час код
+
 ## Идеи скриптов
 
 * разбор логов FCC по присутствию на лекциях
