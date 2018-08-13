@@ -174,7 +174,7 @@ Homer                                                     40  2018-07-01 12:37:0
 
 ## Day 15: Aug 13, 2018
 
-Сегодня сделала задачку по курсу [15-way Rock Paper Scissors](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day015/rock_paper_scissors_15_way.py) и решила 4 задачки [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day015/beginner) уровня beginner.
+Сегодня сделала задачку по курсу [15-way Rock Paper Scissors](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day015/rock_paper_scissors_15_way.py) и решила 7 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day015/beginner) (дорешала все beginner).
 
 ```
 $ python rock_paper_scissors_15_way.py
@@ -210,7 +210,7 @@ Result: Player(nata) lose Player(computer)
 Player(nata) winned
 ```
 
-Время: 1 час код
+Время: 1.5 часа код
 
 ## Идеи скриптов
 
