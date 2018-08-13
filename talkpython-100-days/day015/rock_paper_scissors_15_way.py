@@ -95,3 +95,37 @@ def game_loop(player1, player2, rolls, loop_count=3):
 if __name__ == "__main__":
     #pprint(read_battle_table('battle-table.csv'))
     main(5)
+
+'''
+$ python rock_paper_scissors_15_way.py
+---------------------------------
+------ Rock Paper Scissors ------
+---------------------------------
+Enter your name: nata
+Make your roll: dragon
+Player Player(nata) roll: Roll(dragon)
+Player Player(computer) roll: Roll(fire)
+Result: Player(nata) win Player(computer)
+
+Make your roll: paper
+Player Player(nata) roll: Roll(paper)
+Player Player(computer) roll: Roll(snake)
+Result: Player(nata) lose Player(computer)
+
+Make your roll: rock
+Player Player(nata) roll: Roll(rock)
+Player Player(computer) roll: Roll(tree)
+Result: Player(nata) win Player(computer)
+
+Make your roll: dragon
+Player Player(nata) roll: Roll(dragon)
+Player Player(computer) roll: Roll(fire)
+Result: Player(nata) win Player(computer)
+
+Make your roll: fire
+Player Player(nata) roll: Roll(fire)
+Player Player(computer) roll: Roll(rock)
+Result: Player(nata) lose Player(computer)
+
+Player(nata) winned
+'''
