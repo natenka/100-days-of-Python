@@ -176,7 +176,7 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Сегодня сделала задачку по курсу [15-way Rock Paper Scissors](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day015/rock_paper_scissors_15_way.py) и решила 4 задачки [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day015/beginner) уровня beginner.
 
-```python
+```
 $ python rock_paper_scissors_15_way.py
 ---------------------------------
 ------ Rock Paper Scissors ------
