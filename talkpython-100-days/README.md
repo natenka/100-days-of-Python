@@ -212,6 +212,15 @@ Player(nata) winned
 
 Время: 1.5 часа код
 
+## Day 16: Aug 14, 2018
+
+Сегодня новая тема [list comprehensions and generators](https://github.com/talkpython/100daysofcode-with-python-course/blob/master/days/16-18-listcomprehensions-generators/list-comprehensions-generators.ipynb).  Послушала лекции и два часа на код: решила [challenge 11](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day016/challenge_11.py) и [5 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day016/intermediate).
+
+Время:
+
+* 15 минут видео
+* 2 часа код
+
 ## Идеи скриптов
 
 * разбор логов FCC по присутствию на лекциях
