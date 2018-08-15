@@ -221,6 +221,13 @@ Player(nata) winned
 * 15 минут видео
 * 2 часа код
 
+## Day 17: Aug 15, 2018
+
+Так как вчера я сделала все что было по темам на три дня, сегодня решаю задачки: [6 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day017/intermediate).
+
+Время: 1 час 10 минут код
+
+
 ## Идеи скриптов
 
 * разбор логов FCC по присутствию на лекциях
