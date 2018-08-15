@@ -214,7 +214,7 @@ Player(nata) winned
 
 ## Day 16: Aug 14, 2018
 
-Сегодня новая тема [list comprehensions and generators](https://github.com/talkpython/100daysofcode-with-python-course/blob/master/days/16-18-listcomprehensions-generators/list-comprehensions-generators.ipynb).  Послушала лекции и два часа на код: решила [challenge 11](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day016/challenge_11.py) и [5 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day016/intermediate).
+Сегодня новая тема [list comprehensions and generators](https://github.com/talkpython/100daysofcode-with-python-course/blob/master/days/16-18-listcomprehensions-generators/list-comprehensions-generators.ipynb).  Послушала лекции и два часа на код: решила [challenge 11](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day016/challenge_11.py) и [5 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/6ad4b69b96f94b07873dc4ee0f50dbe0334660da).
 
 Время:
 
@@ -223,7 +223,7 @@ Player(nata) winned
 
 ## Day 17: Aug 15, 2018
 
-Так как вчера я сделала все что было по темам на три дня, сегодня решаю задачки: [6 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day017/intermediate).
+Так как вчера я сделала все что было по темам на три дня, сегодня решаю задачки: [6 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/fefee6ac5512acbf10f9d3b17e4b34cd45e0baf3).
 
 Время: 1 час 10 минут код
 
