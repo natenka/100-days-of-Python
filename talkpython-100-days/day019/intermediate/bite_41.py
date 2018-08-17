@@ -22,19 +22,31 @@ user is on the system but not logged in, return "please login"
 user is on the system and logged in, return the function's "welcome back {user}"
 See also the tests for more details. Have fun and enjoy!
 """
+from functools import wraps
 
 known_users = ['bob', 'julian', 'mike', 'carmen', 'sue']
 loggedin_users = ['mike', 'sue']
 
 
 def login_required(func):
-    pass
+    @wraps(func)
+    def inner(user):
+        if not user in known_users:
+            return "please create an account"
+        if not user in loggedin_users:
+            return "please login"
+        return func(user)
+    return inner
 
 
 @login_required
 def welcome(user):
     '''Return a welcome message if logged in'''
-    pass
+    return f'welcome back {user}'
+
+print(welcome('anonymous') == 'please create an account')
+print(welcome('julian') == 'please login')
+print(welcome('sue') == 'welcome back sue')
 
 
 ### tests

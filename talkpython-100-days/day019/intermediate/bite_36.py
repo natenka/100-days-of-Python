@@ -22,11 +22,21 @@ get_profile('tim', 36) == {'name': 'tim', 'age': 36}  # some arg types
 (args list to be sorted alphabetically)
 We hope this gives you a good handle on Python's different types of function arguments. Enjoy!
 '''
-def get_profile():
-    pass
+def get_profile(name, age, *sports, **awards):
+    if not isinstance(age, int):
+        raise ValueError
+    if len(sports) > 5:
+        raise ValueError
+    all_vars = {key: value for key, value in locals().items() if value}
+    if 'sports' in all_vars:
+        all_vars['sports'] = sorted(all_vars['sports'])
+    return all_vars
 
+print(get_profile('tim', 36, 'tennis','basketball', champ='helped out team in crisis'))
+print(get_profile('tim', 36))
 
 ###########################tests
+'''
 import pytest
 
 from profile import get_profile
@@ -96,3 +106,4 @@ def test_get_profile_two_sports_and_three_awards():
                        champ='helped out the team in crisis',
                        attitude='unbeatable positive + uplifting') == expected
 
+'''
