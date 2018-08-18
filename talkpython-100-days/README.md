@@ -248,6 +248,11 @@ Player(nata) winned
 * 30 минут код
 * 30 минут видео
 
+## Статистика 1-20 день
+
+<img align="center" src="https://raw.githubusercontent.com/natenka/100-days-of-Python/master/talkpython-100-days/day020/20_days_report.png">
+
+
 ## Идеи скриптов
 
 * Скрипт для переноса решения заданий из ветки master в task_check
