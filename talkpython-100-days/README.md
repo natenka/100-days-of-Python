@@ -239,6 +239,15 @@ Player(nata) winned
 
 Время: 1 час код
 
+## Day 20: Aug 18, 2018
+
+Сегодня сделала [1 задачку](https://github.com/natenka/100-days-of-Python/commit/99d8c0be7c0ec1b253d4ebe4cd9a9f7fb738793a) и посмотрела видео по новым темам [itertools](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/19-21-itertools).
+
+Время:
+
+* 30 минут код
+* 30 минут видео
+
 ## Идеи скриптов
 
 * Скрипт для переноса решения заданий из ветки master в task_check
