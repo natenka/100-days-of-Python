@@ -35,7 +35,9 @@ earnings_mln = [
 
 
 def get_largest_number(numbers, n=3):
-    pass
+    heapq.heapify(numbers)
+    return numbers[-n:]
+
 
 
 def get_latest_dates(dates, n=3):
