@@ -248,7 +248,16 @@ Player(nata) winned
 * 30 минут код
 * 30 минут видео
 
+## Day 21: Aug 19, 2018
+
+Сегодня [сделала задачку](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day021/traffic_lights.py) с созданием [светофора](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/19-21-itertools#day-n1-create-a-traffic-lights-script) и [одну intermediate уровня](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day021/intermediate/bite_060.py)
+
+Пример выполнения скрипта со светофором (записан с помощью [termtosvg](https://github.com/nbedos/termtosvg)):
+
+<img src="https://cdn.rawgit.com/natenka/100-days-of-Python/4cc8aa3a/talkpython-100-days/day021/traffic_lights_animation.svg" width="800">
+
 ## Статистика 1-20 день
+
 
 <img align="center" src="https://raw.githubusercontent.com/natenka/100-days-of-Python/master/talkpython-100-days/day020/20_days_report.png">
 
