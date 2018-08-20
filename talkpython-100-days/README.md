@@ -256,6 +256,15 @@ Player(nata) winned
 
 <img src="https://cdn.rawgit.com/natenka/100-days-of-Python/4cc8aa3a/talkpython-100-days/day021/traffic_lights_animation.svg" width="800">
 
+## Day 22: Aug 20, 2018
+
+Сегодня решила три задачки [intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/0c87743c30d4db3eadc460aa2be635cd92a1cfed).
+
+Время:
+
+* 1 час 20 минут код
+* 23 минуты видео
+
 ## Статистика 1-20 день
 
 
