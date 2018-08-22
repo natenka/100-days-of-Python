@@ -271,6 +271,13 @@ Player(nata) winned
 
 Время 1 час 10 минут код
 
+## Day 24: Aug 22, 2018
+
+Сегодня решила 4 задачки [intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/5bfe63009662aad10b01c71a0540853544604155).
+
+Время 1 час код
+
+
 ## Статистика 1-20 день
 
 
