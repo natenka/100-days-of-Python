@@ -275,8 +275,22 @@ Player(nata) winned
 
 Сегодня решила 4 задачки [intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/5bfe63009662aad10b01c71a0540853544604155).
 
-Время 1 час код
+Время: 1 час код
 
+## Day 25: Aug 23, 2018
+
+Сегодня решила 6 задачек intermediate уровня.
+
+Время: 1 час 45 минут код
+
+## Day 26: Aug 24, 2018
+
+Сегодня решила [3 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/93bfa88bdf7c1cd6971edcb4b98ee6b492d46bd5) и посмотрела лекции по теме.
+
+Время:
+
+* 20 минут лекции
+* 40 минут код
 
 ## Статистика 1-20 день
 
