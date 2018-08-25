@@ -23,7 +23,16 @@ def get_ordinal_suffix(number):
          pronounced one hundred [and] twelfth)
        - th is used for all other numbers (e.g. 9th, pronounced ninth).
        """
-    pass
+    num_str = str(number)
+    ends_map = {'1': 'st', '2': 'nd', '3': 'rd'}
+    if num_str.endswith(('11', '12', '13')):
+        return f'{num_str}th'
+    elif num_str[-1] in ends_map:
+        return f'{num_str}{ends_map[num_str[-1]]}'
+    else:
+        return f'{num_str}th'
+
+
 
 # tests
 import pytest

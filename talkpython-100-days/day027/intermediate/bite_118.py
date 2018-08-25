@@ -3,6 +3,8 @@ In this Bite you are presented with a list of words. Loop through them and find 
 
 Example: ['this', 'is', 'a', 'new', 'bite', 'I', 'hope', 'this', 'bite', 'will', 'teach', 'you', 'something', 'new'] would return [0, 3, 4], because this, a, and bite are duplicated and are at index 0, 3 and 4 respectively.
 '''
+from collections import Counter
+
 def get_duplicate_indices(words):
     """Given a list of words, loop through the words and check for each
        word if it occurs more than once.
@@ -12,7 +14,10 @@ def get_duplicate_indices(words):
        return [0, 1]:
        ['is', 'it', 'true', 'or', 'is', 'it', 'not?'] => [0, 1]
        Make sure the returning list is unique and sorted in ascending order."""
-    pass
+    c = Counter(words)
+    indexes = sorted([words.index(w) for w, count in c.most_common() if count > 1])
+    return indexes
+
 
 #tests
 from duplicates import get_duplicate_indices

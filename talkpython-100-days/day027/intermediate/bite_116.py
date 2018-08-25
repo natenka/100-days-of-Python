@@ -15,8 +15,8 @@ ONE_KB = 1024
 
 def get_files(dirname, size_in_kb):
     """Return files in dirname that are >= size_in_kb"""
-    os.stat('bite_086.py')
-    os.stat_result(st_mode=33188, st_ino=167048, st_dev=2049, st_nlink=1, st_uid=1000, st_gid=1000, st_size=388, st_atime=1535011395, st_mtime=1535011326, st_ctime=1535011326)
+    files = [f for f in os.listdir('.') if os.stat(f).st_size/ONE_KB > size_in_kb]
+    return files
 
 #tests
 import os

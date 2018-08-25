@@ -3,6 +3,8 @@ In this Bite you are presented with a users dict of keys=id's and values=usernam
 
 Loop through friendships and find out which user has the most friends. Return a tuple of friend name and his or her friends. Have fun!
 '''
+from collections import defaultdict
+
 names = 'bob julian tim martin rod sara joyce nick beverly kevin'.split()
 ids = range(len(names))
 users = dict(zip(ids, names))  # 0: bob, 1: julian, etc
@@ -16,7 +18,16 @@ def get_friend_with_most_friends(friendships=friendships):
     """Receives the friendships list of user ID pairs,
        parse it to see who has most friends, return a tuple
        of (name_friend_with_most_friends, his_or_her_friends)"""
-    pass
+    d = defaultdict(set)
+
+    for user, friend in friendships:
+        d[users[user]].add(users[friend])
+        d[users[friend]].add(users[user])
+
+    user, friends = max(d.items(), key=lambda x: len(x[1]))
+    return user, friends
+
+
 
 
 #tests
