@@ -300,6 +300,21 @@ Player(nata) winned
 
 Время: 1 час 20 минут код
 
+## Day 28: Aug 26, 2018
+
+Сегодня решила 2 задачки advanced уровня.
+
+Время: 1 час код
+
+## Day 29: Aug 27, 2018
+
+Сегодня решила 6 задачек advanced уровня.
+
+Получила красивую бумажку :)
+
+<img src="https://pybites-certificates.s3.amazonaws.com/natasha_samoylenko_03efe4d0-821c-42ec-ae70-ab6e31251f7d.png" width="800">
+
+Время: 2 часа код
 
 ## Статистика 1-20 день
 
