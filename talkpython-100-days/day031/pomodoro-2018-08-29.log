@@ -1,0 +1,39 @@
+[2018-08-29 17:46:45.437817] INFO: App: Pomodoro session started
+[2018-08-29 17:46:45.438728] INFO: App: Starting Pomodoro set: 4 pomodoros, 10 minutes each
+[2018-08-29 17:46:45.438895] INFO: App: Pomodoro 1 started
+[2018-08-29 17:47:00.473939] INFO: App: Pomodoro 1 finished. Productivity level: 80
+[2018-08-29 17:47:01.475419] INFO: App: Pomodoro 2 started
+[2018-08-29 17:47:14.209610] INFO: App: Pomodoro 2 finished. Productivity level: 100
+[2018-08-29 17:47:15.211034] INFO: App: Pomodoro 3 started
+[2018-08-29 17:47:30.665575] INFO: App: Pomodoro 3 finished. Productivity level: 70
+[2018-08-29 17:47:31.667078] INFO: App: Pomodoro 4 started
+[2018-08-29 17:47:49.016922] INFO: App: Pomodoro 4 finished. Productivity level: 95
+[2018-08-29 17:47:59.029278] INFO: App: Starting Pomodoro set: 2 pomodoros, 10 minutes each
+[2018-08-29 17:47:59.029445] INFO: App: Pomodoro 5 started
+[2018-08-29 17:48:14.024282] INFO: App: Pomodoro 5 finished. Productivity level: 90
+[2018-08-29 17:48:15.025883] INFO: App: Pomodoro 6 started
+[2018-08-29 17:48:29.311806] INFO: App: Pomodoro 6 finished. Productivity level: 100
+[2018-08-29 17:48:29.311941] INFO: App: Pomodoro session finished
+[2018-08-29 17:48:29.311983] INFO: App: Session stats: {'total': 6, 'done': 6, 'todo': 0}
+[2018-08-29 17:49:55.284535] INFO: App: Pomodoro session started
+[2018-08-29 17:49:55.284861] INFO: App: Starting Pomodoro set: 4 pomodoros, 15 minutes each
+[2018-08-29 17:49:55.284987] INFO: App: Pomodoro 1 started
+[2018-08-29 17:50:19.597199] INFO: App: Pomodoro 1 finished. Productivity level: 95
+[2018-08-29 17:50:20.599734] INFO: App: Pomodoro 2 started
+[2018-08-29 17:50:37.476242] INFO: App: Pomodoro 2 finished. Productivity level: 100
+[2018-08-29 17:50:38.478424] INFO: App: Pomodoro 3 started
+[2018-08-29 17:50:56.244024] INFO: App: Pomodoro 3 finished. Productivity level: 80
+[2018-08-29 17:50:57.245566] INFO: App: Pomodoro 4 started
+[2018-08-29 17:51:41.859501] INFO: App: Pomodoro 4 finished. Productivity level: 85
+[2018-08-29 17:51:51.874781] INFO: App: Starting Pomodoro set: 1 pomodoros, 15 minutes each
+[2018-08-29 17:51:51.874961] INFO: App: Pomodoro 5 started
+[2018-08-29 17:52:29.665632] INFO: App: Pomodoro 5 finished. Productivity level: 100
+[2018-08-29 17:52:29.665829] INFO: App: Pomodoro session finished
+[2018-08-29 17:52:29.665908] INFO: App: Session stats: {'total': 5, 'done': 5, 'todo': 0}
+[2018-08-29 18:05:19.885777] INFO: App: Pomodoro session started
+[2018-08-29 18:05:19.885967] INFO: App: Starting Pomodoro set: 4 pomodoros, 25 minutes each
+[2018-08-29 18:05:19.885967] INFO: App: Pomodoro 1 started
+[2018-08-29 18:06:44.890641] INFO: App: Pomodoro 1 finished. Productivity level: 90
+[2018-08-29 18:06:46.893827] INFO: App: Pomodoro 2 started
+[2018-08-29 18:06:50.699023] INFO: App: Session interupted
+[2018-08-29 18:06:50.699212] INFO: App: Session stats: {'total': 5, 'done': 1, 'todo': 4}
