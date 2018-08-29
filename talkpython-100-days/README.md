@@ -322,6 +322,15 @@ Player(nata) winned
 
 Время: 50 минут лекции
 
+## Day 31: Aug 29, 2018
+
+Сегодня начала следующую тему - логирование. Узнала про [модуль logbook](https://logbook.readthedocs.io/en/stable/).
+Добавила базовое [логирование в Pomodoro timer](https://github.com/natenka/100-days-of-Python/commit/0d3388612dcb3d10f3ac28aa45c074638c58bad1) из 3 дня. Завтра продолжу разбираться с logbook
+
+Время:
+
+* 1 час лекции
+* 1 час код
 
 ## Статистика 1-20 день
 
