@@ -332,6 +332,19 @@ Player(nata) winned
 * 1 час лекции
 * 1 час код
 
+## Day 32: Aug 30, 2018
+
+Сегодня решила [2 задачки advanced уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day032/advanced)
+
+Время: 1 час код
+
+## Day 33: Aug 31, 2018
+
+Сегодня только лекции
+
+Время: 1 час лекции
+
+
 ## Статистика 1-20 день
 
 
