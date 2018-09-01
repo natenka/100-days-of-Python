@@ -344,6 +344,12 @@ Player(nata) winned
 
 Время: 1 час лекции
 
+## Day 34: Sep 1, 2018
+
+Сегодня решила [2 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/d4041445a7f580aa7378e06ce092cdf6fc887bd).
+
+Время: 1 час код
+
 
 ## Статистика 1-20 день
 
