@@ -350,6 +350,15 @@ Player(nata) winned
 
 Время: 1 час код
 
+## Day 35: Sep 2, 2018
+
+Сегодня решила [2 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day035/intermediate).
+
+Время:
+
+* 40 минут код
+* 35 минут лекции
+
 
 ## Статистика 1-20 день
 
