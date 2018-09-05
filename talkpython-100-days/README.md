@@ -375,6 +375,54 @@ Player(nata) winned
 
 Время: 1 час лекции
 
+## Day 38: Sep 5, 2018
+
+Сегодня поступила умно и занималась утром - разница огромная. Работала с данными по популярности песен и исполнителей классического рока.
+ Было весело :)
+
+Такой [получился скрипт](https://github.com/natenka/100-days-of-Python/commit/d2970433ce2e609bce14c5047d1c14acf41bdc57):
+```python
+$ python get_best_classic_rock.py --help
+Usage: get_best_classic_rock.py [OPTIONS]
+Options:
+  -c, --category [artist|song]
+  -t, --top INTEGER             [default: 10]
+  --sort_asc
+  --help                        Show this message and exit.
+
+
+$ python get_best_classic_rock.py -c artist
+Artist                           Songs playcount
+-----------------------------  -----------------
+Led Zeppelin                                1556
+Van Halen                                   1243
+Rolling Stones                              1143
+Pink Floyd                                  1044
+Tom Petty & The Heartbreakers                965
+AC/DC                                        866
+Aerosmith                                    813
+ZZ Top                                       712
+The Beatles                                  704
+Queen                                        694
+
+
+$ python get_best_classic_rock.py -c song
+Name                         Artist          Year    Playcount
+---------------------------  ------------  ------  -----------
+Dream On                     Aerosmith       1973          142
+Sweet Emotion                Aerosmith       1975          141
+All Along the Watchtower     Jimi Hendrix    1968          141
+You Shook Me All Night Long  AC/DC           1980          138
+More Than a Feeling          Boston          1976          134
+Carry On Wayward Son         Kansas          1976          134
+Peace of Mind                Boston          1976          132
+Crazy On You                 Heart           1976          125
+Legs                         ZZ Top          1983          121
+Sharp Dressed Man            ZZ Top          1983          120
+```
+
+Время: 1 час 40 минут код
+
 ## Статистика 1-20 день
 
 
