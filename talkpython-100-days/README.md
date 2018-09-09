@@ -483,10 +483,9 @@ Iron Man 3                        2013       7.2        130  408992272
 Captain America: Civil War        2016       7.8        147  408080554
 Guardians of the Galaxy Vol. 2    2017       7.7        136  389804217
 Spider-Man: Homecoming            2017       7.5        133  334166825
-(py3_convert)
-[~/repos/100-days-of-Python/talkpython-100-days/day042]
-vagrant@jessie-i386: [master|…4]
-19:14 $ python get_marvel_stats.py runtime
+
+
+$ python get_marvel_stats.py runtime
 title                                  year    rating    runtime      money
 -----------------------------------  ------  --------  ---------  ---------
 Avengers: Infinity War                 2018       8.7        149  664987816
