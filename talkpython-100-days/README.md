@@ -441,6 +441,62 @@ Sharp Dressed Man            ZZ Top          1983          120
 
 Время: 2:15 лекции
 
+## Day 42: Sep 5, 2018
+
+Сегодня работала с JSON и данными из [OMDb API](http://www.omdbapi.com/). Продолжаю использовать click для cli. Так я больше запоминаю, плюс он мне нравится.
+
+Такой [получился скрипт](https://github.com/natenka/100-days-of-Python/commit/86462fdf1ee2636d68c522a86dfa1e8858cc0482#diff-4fe9ac54e1fddd6659e5197101acaaa7):
+```python
+$ python get_marvel_stats.py rating
+title                      year    rating    runtime      money
+-----------------------  ------  --------  ---------  ---------
+Avengers: Infinity War     2018       8.7        149  664987816
+The Avengers               2012       8.1        143  623279547
+Guardians of the Galaxy    2014       8.1        121  270592504
+Iron Man                   2008       7.9        126  318298180
+Thor: Ragnarok             2017       7.9        130  314971245
+
+
+$ python get_marvel_stats.py rating --top 10
+title                                  year    rating    runtime      money
+-----------------------------------  ------  --------  ---------  ---------
+Avengers: Infinity War                 2018       8.7        149  664987816
+The Avengers                           2012       8.1        143  623279547
+Guardians of the Galaxy                2014       8.1        121  270592504
+Iron Man                               2008       7.9        126  318298180
+Thor: Ragnarok                         2017       7.9        130  314971245
+Captain America: The Winter Soldier    2014       7.8        136  228636083
+Captain America: Civil War             2016       7.8        147  408080554
+Guardians of the Galaxy Vol. 2         2017       7.7        136  389804217
+Doctor Strange                         2016       7.5        115  232630718
+Spider-Man: Homecoming                 2017       7.5        133  334166825
+
+
+$ python get_marvel_stats.py money -t 8
+title                             year    rating    runtime      money
+------------------------------  ------  --------  ---------  ---------
+Avengers: Infinity War            2018       8.7        149  664987816
+The Avengers                      2012       8.1        143  623279547
+Black Panther                     2018       7.4        134  501105037
+Avengers: Age of Ultron           2015       7.4        141  429113729
+Iron Man 3                        2013       7.2        130  408992272
+Captain America: Civil War        2016       7.8        147  408080554
+Guardians of the Galaxy Vol. 2    2017       7.7        136  389804217
+Spider-Man: Homecoming            2017       7.5        133  334166825
+(py3_convert)
+[~/repos/100-days-of-Python/talkpython-100-days/day042]
+vagrant@jessie-i386: [master|…4]
+19:14 $ python get_marvel_stats.py runtime
+title                                  year    rating    runtime      money
+-----------------------------------  ------  --------  ---------  ---------
+Avengers: Infinity War                 2018       8.7        149  664987816
+Captain America: Civil War             2016       7.8        147  408080554
+The Avengers                           2012       8.1        143  623279547
+Avengers: Age of Ultron                2015       7.4        141  429113729
+Captain America: The Winter Soldier    2014       7.8        136  228636083
+
+```
+
 ## Статистика 1-20 день
 
 
