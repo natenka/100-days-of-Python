@@ -36,7 +36,7 @@ tags:
 За сегодня я посмотрела видео первого дня, сделала [задачки за второй день и начала задачку из третьего](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/01-03-datetimes).
 Начала делать свой pomodoro timer и пока сделала [костяк скрипта](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day001/pomodoro_timer.py), а завтра уже буду добавлять реальную работу. Если успею, завтра также добавлю интерфейс для вызова скрипта в командной строке, но пока не решила делать его с argparse (его я знаю и будет проще) или с click (пробовала только пару раз).
 
-Время:
+Time:
 
 * 30 минут видео
 * 1 час 10 минут код
@@ -51,7 +51,7 @@ tags:
 
 <img src="https://cdn.rawgit.com/natenka/100-days-of-Python/7fd02998/talkpython-100-days/day002/pomodoro_timer_run_animation.svg" width="800">
 
-Время: 1 час 30 минут код
+Time: 1 час 30 минут код
 
 ## Day 3: August 1, 2018
 
@@ -64,7 +64,7 @@ tags:
 
 <img src="https://cdn.rawgit.com/natenka/100-days-of-Python/9cbc94c6/talkpython-100-days/day003/pomodoro_timer_run_animation.svg" width="800">
 
-Время: 1 час 20 минут код
+Time: 1 час 20 минут код
 
 ## Day 4: August 2, 2018
 
@@ -73,7 +73,7 @@ tags:
 
 Следующие два дня буду заниматься разбором логов FCC с информацией о том, кто был на лекции онлайн. В итоге хочу получить сводку с информацией о том, кто ходит на лекции чаще всего.
 
-Время:
+Time:
 
 * 15 минут видео
 * 2 часа код
@@ -82,7 +82,7 @@ tags:
 
 Сегодня занималась вечером, так что вместо намеченного скрипта делала задачки [Bites of Py](https://codechalleng.es/bites/). Решила делать все с самого начала, так что пока сделала intro и пару beginner.
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 6: Aug 4, 2018
 
@@ -118,25 +118,25 @@ Charles Dickens      charles.dickens@example.com         196  2018-07-01 10:00:1
 Homer                                                     40  2018-07-01 12:37:06  2018-07-01 13:16:11
 ```
 
-Время: 3 часа код
+Time: 3 часа код
 
 ## Day 7: Aug 5, 2018
 
 Сегодня только лекции. Посмотрела лекции по 7 дню и начала смотреть курс [Write Pythonic Code Like a Seasoned Developer](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer)
 
-Время: 1.5 часа лекции
+Time: 1.5 часа лекции
 
 ## Day 8: Aug 6, 2018
 
 Решила 4 задачки [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day008)
 
-Время: 50 минут код
+Time: 50 минут код
 
 ## Day 9: Aug 7, 2018
 
 Решила 9 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day009) и продолжаю слушать курс [Write Pythonic Code Like a Seasoned Developer](https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer).
 
-Время:
+Time:
 
 * 1 час видео
 * 1.5 часа код
@@ -145,31 +145,31 @@ Homer                                                     40  2018-07-01 12:37:0
 
 Сегодня только лекции.
 
-Время: 1 час лекции
+Time: 1 час лекции
 
 ## Day 11: Aug 9, 2018
 
 Решила 6 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day011)
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 12: Aug 10, 2018
 
 Решила 6 задачек [Bites of Python](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day012)
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 13: Aug 11, 2018
 
 Сегодня только лекции.
 
-Время: 1 час лекции
+Time: 1 час лекции
 
 ## Day 14: Aug 12, 2018
 
 Сегодня по курсу сделала задачку с игрой [Rock Paper Scissors](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day14/rock_paper_scissors.py).
 
-Время: 1 час код
+Time: 1 час код
 
 
 ## Day 15: Aug 13, 2018
@@ -210,13 +210,13 @@ Result: Player(nata) lose Player(computer)
 Player(nata) winned
 ```
 
-Время: 1.5 часа код
+Time: 1.5 часа код
 
 ## Day 16: Aug 14, 2018
 
 Сегодня новая тема [list comprehensions and generators](https://github.com/talkpython/100daysofcode-with-python-course/blob/master/days/16-18-listcomprehensions-generators/list-comprehensions-generators.ipynb).  Послушала лекции и два часа на код: решила [challenge 11](https://github.com/natenka/100-days-of-Python/blob/master/talkpython-100-days/day016/challenge_11.py) и [5 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/6ad4b69b96f94b07873dc4ee0f50dbe0334660da).
 
-Время:
+Time:
 
 * 15 минут видео
 * 2 часа код
@@ -225,25 +225,25 @@ Player(nata) winned
 
 Так как вчера я сделала все что было по темам на три дня, сегодня решаю задачки: [6 задачек intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/fefee6ac5512acbf10f9d3b17e4b34cd45e0baf3).
 
-Время: 1 час 10 минут код
+Time: 1 час 10 минут код
 
 ## Day 18: Aug 16, 2018
 
 Сегодня сделала [4 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/aeb2bd169c1fdb6d97d336faad0fe81916b5ecaa)
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 19: Aug 17, 2018
 
 Сегодня сделала 2 задачки, еще одну вроде сделала, но что-то ответ не совпадает.
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 20: Aug 18, 2018
 
 Сегодня сделала [1 задачку](https://github.com/natenka/100-days-of-Python/commit/99d8c0be7c0ec1b253d4ebe4cd9a9f7fb738793a) и посмотрела видео по новым темам [itertools](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/19-21-itertools).
 
-Время:
+Time:
 
 * 30 минут код
 * 30 минут видео
@@ -260,7 +260,7 @@ Player(nata) winned
 
 Сегодня решила три задачки [intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/0c87743c30d4db3eadc460aa2be635cd92a1cfed).
 
-Время:
+Time:
 
 * 1 час 20 минут код
 * 23 минуты видео
@@ -275,19 +275,19 @@ Player(nata) winned
 
 Сегодня решила 4 задачки [intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/5bfe63009662aad10b01c71a0540853544604155).
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 25: Aug 23, 2018
 
 Сегодня решила 6 задачек intermediate уровня.
 
-Время: 1 час 45 минут код
+Time: 1 час 45 минут код
 
 ## Day 26: Aug 24, 2018
 
 Сегодня решила [3 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/93bfa88bdf7c1cd6971edcb4b98ee6b492d46bd5) и посмотрела лекции по теме.
 
-Время:
+Time:
 
 * 20 минут лекции
 * 40 минут код
@@ -298,13 +298,13 @@ Player(nata) winned
 
 Закончилось самое сложное время - отпуск :) Все дни, как минимум, час занималась и почти каждый день час тратила на код, в основном, решала задачки.
 
-Время: 1 час 20 минут код
+Time: 1 час 20 минут код
 
 ## Day 28: Aug 26, 2018
 
 Сегодня решила 2 задачки advanced уровня.
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 29: Aug 27, 2018
 
@@ -314,20 +314,20 @@ Player(nata) winned
 
 <img src="https://pybites-certificates.s3.amazonaws.com/natasha_samoylenko_03efe4d0-821c-42ec-ae70-ab6e31251f7d.png" width="800">
 
-Время: 2 часа код
+Time: 2 часа код
 
 ## Day 30: Aug 28, 2018
 
 Сегодня только лекции
 
-Время: 50 минут лекции
+Time: 50 минут лекции
 
 ## Day 31: Aug 29, 2018
 
 Сегодня начала следующую тему - логирование. Узнала про [модуль logbook](https://logbook.readthedocs.io/en/stable/).
 Добавила базовое [логирование в Pomodoro timer](https://github.com/natenka/100-days-of-Python/commit/0d3388612dcb3d10f3ac28aa45c074638c58bad1) из 3 дня. Завтра продолжу разбираться с logbook
 
-Время:
+Time:
 
 * 1 час лекции
 * 1 час код
@@ -336,25 +336,25 @@ Player(nata) winned
 
 Сегодня решила [2 задачки advanced уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day032/advanced)
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 33: Aug 31, 2018
 
 Сегодня только лекции
 
-Время: 1 час лекции
+Time: 1 час лекции
 
 ## Day 34: Sep 1, 2018
 
 Сегодня решила [2 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/commit/d4041445a7f580aa7378e06ce092cdf6fc887bd).
 
-Время: 1 час код
+Time: 1 час код
 
 ## Day 35: Sep 2, 2018
 
 Сегодня решила [2 задачки intermediate уровня](https://github.com/natenka/100-days-of-Python/tree/master/talkpython-100-days/day035/intermediate).
 
-Время:
+Time:
 
 * 40 минут код
 * 35 минут лекции
@@ -366,14 +366,14 @@ Player(nata) winned
 
 Сегодня дополняла свой [pomodoro timer](https://github.com/natenka/100-days-of-Python/commit/ce5f7c35aeb24daf552525a3e8cbd29fe78db4e3): добавила запись статистики в бд, позже будет рассматриваться plotly, вот тогда еще займусь рисованием графиков на основании статистики.
 
-Время: 1 час 20 минут код
+Time: 1 час 20 минут код
 
 ## Day 37: Sep 4, 2018
 
 Сегодня только лекции. Кажется загадка разгадана: я просто постепенно сама по себе начала вставать раньше, перехожу к своему нормальному графику и соответственно, раньше хочу спать. И ровно в то время, когда я хочу спать, я сажусь заниматься )
 Первые недели я занималась первым делом с утра или днем. Надо опять так делать, а то совсем тяжело заниматься в сонном состоянии.
 
-Время: 1 час лекции
+Time: 1 час лекции
 
 ## Day 38: Sep 5, 2018
 
@@ -421,25 +421,25 @@ Legs                         ZZ Top          1983          121
 Sharp Dressed Man            ZZ Top          1983          120
 ```
 
-Время: 1 час 40 минут код
+Time: 1 час 40 минут код
 
 ## Day 39: Sep 6, 2018
 
 Сегодня сделала [скрипт для переноса решения заданий из ветки master в task_check](https://github.com/natenka/100-days-of-Python/commit/1797bc33c257ccff3236e06a6dab358578d37d5c), который снимет одну небольшую рутинную задачу с меня. В проверке заданий  я это использую каждый раз, поэтому он точно пригодится.
 
-Время: 1:20 код
+Time: 1:20 код
 
 ## Day 40: Sep 7, 2018
 
 Сегодня только лекции.
 
-Время: 2:00 лекции
+Time: 2:00 лекции
 
 ## Day 41: Sep 8, 2018
 
 Сегодня только лекции.
 
-Время: 2:15 лекции
+Time: 2:15 лекции
 
 ## Day 42: Sep 5, 2018
 
@@ -495,6 +495,8 @@ Avengers: Age of Ultron                2015       7.4        141  429113729
 Captain America: The Winter Soldier    2014       7.8        136  228636083
 
 ```
+
+Time: 1:25 код
 
 ## Статистика 1-20 день
 
