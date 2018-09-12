@@ -512,6 +512,74 @@ Time: 1:10 лекции
 
 ## Day 45: Sep 12, 2018
 
+Небольшой скрипт для поиска эпизодов подкаста Talk Python:
+
+```
+$ python search_talkpython.py concurrency
+There are 27 matching episodes:
+1. Monitoring high performance Python apps at Opbeat
+2. Flask, Django style with Flask-Diamond
+3. Fluent Python
+4. Adding concurrency to Django with Django Channels
+5. Effective Python
+6. Grumpy: Running Python on Go
+7. Deep Dive into Modules and Packages
+8. Crossing the streams with Podcast.__init__
+9. Shipping software to users
+10. MongoDB Applied Design Patterns
+11. Simplifying Python's Async with Trio
+12. Python in Biology and Genomics
+13. Scaling Python to 1000's of cores with Ufora
+14. SQLAlchemy and data access in Python
+15. Home Assistant: Pythonic Home Automation
+16. Enterprise Python and Large-Scale Projects
+17. A Pythonic Database Tour
+18. Turbogears and the future of Python web frameworks
+19. Python concurrency with Curio
+20. PyPy - The JIT Compiled Python Implementation
+21. Python and MongoDB
+22. Create better Python programs with concurrency, libraries, and patterns
+23. Quart: Flask, but 3x faster
+24. Python Book Authors'  Panel Discussion
+25. Python for Humans projects
+26. 10 top talks of PyCon 2017 reviewed
+27. Inside the new PyPI launch
+
+
+$ python search_talkpython.py concurrency --table
+There are 27 matching episodes:
+  Index    Show number  Title
+-------  -------------  -----------------------------------------------------------------------
+      1             43  Monitoring high performance Python apps at Opbeat
+      2             97  Flask, Django style with Flask-Diamond
+      3             24  Fluent Python
+      4             98  Adding concurrency to Django with Django Channels
+      5             25  Effective Python
+      6             95  Grumpy: Running Python on Go
+      7             12  Deep Dive into Modules and Packages
+      8             68  Crossing the streams with Podcast.__init__
+      9            127  Shipping software to users
+     10            109  MongoDB Applied Design Patterns
+     11            167  Simplifying Python's Async with Trio
+     12            154  Python in Biology and Genomics
+     13             60  Scaling Python to 1000's of cores with Ufora
+     14              5  SQLAlchemy and data access in Python
+     15            122  Home Assistant: Pythonic Home Automation
+     16              4  Enterprise Python and Large-Scale Projects
+     17            105  A Pythonic Database Tour
+     18             35  Turbogears and the future of Python web frameworks
+     19            107  Python concurrency with Curio
+     20             21  PyPy - The JIT Compiled Python Implementation
+     21              2  Python and MongoDB
+     22             58  Create better Python programs with concurrency, libraries, and patterns
+     23            147  Quart: Flask, but 3x faster
+     24            148  Python Book Authors'  Panel Discussion
+     25            115  Python for Humans projects
+     26            116  10 top talks of PyCon 2017 reviewed
+     27            159  Inside the new PyPI launch
+
+```
+
 Time: 1:00 код
 
 ## Статистика 1-20 день
