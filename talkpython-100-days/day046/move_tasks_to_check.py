@@ -2,6 +2,7 @@
 
 import os
 import subprocess
+from glob import glob
 
 import click
 
@@ -61,8 +62,23 @@ def git_pull():
     return True
 
 
-def copy_tasks_to_task_check(folder):
-    call_command('git checkout master {}{}/'.format(default_path, folder))
+def copy_tasks_to_task_check(folder_id, task_list=None, glob_expr=None):
+    path = '{}{}/'.format(default_path, chapter_to_folder_map[folder_id])
+    if task_list or glob_expr:
+        #checkout tasks
+        if task_list:
+            task_template = 'task_{}_{}.py' if not folder_id == '18' else 'task_{}_{}'
+            #all_tasks = [f for f in os.listdir(path) if f.startswith('task')]
+            tasks = [path + task_template.format(folder_id, task) for task in task_list.split()]
+        elif glob_expr:
+            tasks = glob(path+glob_expr)
+
+        for task in tasks:
+            call_command('git checkout master {}'.format(task))
+    else:
+        #checkout folder
+        call_command('git checkout master {}'.format(path))
+
     call_command('git status')
     try:
         click.echo(click.style('Please check git status', fg='red', bold=True))
@@ -78,16 +94,29 @@ def copy_tasks_to_task_check(folder):
         result = call_command(command)
 
 
+
 @click.command()
 @click.argument('folder_number', type=click.Choice(chapter_to_folder_map.keys()))
-def do_magic(folder_number):
+@click.option('--task_list', '-t')
+@click.option('--glob_expr', '-g')
+def do_magic(folder_number, task_list, glob_expr):
     folder = chapter_to_folder_map[folder_number]
     git_checkout('master')
     git_pull()
     git_checkout('task_check')
-    copy_tasks_to_task_check(folder)
+    copy_tasks_to_task_check(folder_number, task_list=task_list, glob_expr=glob_expr)
 
 
 if __name__ == '__main__':
     do_magic()
+
+'''
+#usage example:
+
+$ python ../move_tasks_to_check.py 7 -t "1 2 2a"
+
+$ python ../move_tasks_to_check.py 17 -g task_17_2*
+
+$ python ../move_tasks_to_check.py 21
+'''
 
