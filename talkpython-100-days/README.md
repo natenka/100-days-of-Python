@@ -582,6 +582,12 @@ There are 27 matching episodes:
 
 Time: 1:00 код
 
+## Day 46: Sep 13, 2018
+
+Сегодня доделывала [скрипт для переноса решения заданий из ветки master в task_check](https://github.com/natenka/100-days-of-Python/commit/a7d24dc9683a56fed0b656812f1d9dbbe813f10a). Добавила поддержку отдельных заданий и glob выражений.
+
+Time: 1:10 код
+
 ## Статистика 1-20 день
 
 
