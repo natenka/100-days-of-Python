@@ -602,6 +602,11 @@ Time: 1:00 лекции
 
 Time: 1:00 код
 
+## Day 49: Sep 17, 2018
+
+Сегодня только лекции: лекция по курсу, плюс выступление [Refactoring Python: Why and How to Restructure Your Code](https://www.youtube.com/watch?v=D_6ybDcU5gc)
+
+Time: 1:00 лекции
 
 ## Статистика 1-20 день
 
