@@ -626,6 +626,85 @@ Time: 1:10 лекции
 
 Time: 3:30 лекции
 
+## Day 53: Sep 21, 2018
+
+Сегодня только лекции: смотрю выступления с pycon.
+
+Time: 2:00 лекции
+
+## Day 54: Sep 22, 2018
+
+Сегодня только лекции: смотрю выступления с pycon.
+
+Time: 2:40 лекции
+
+## Day 55: Sep 23, 2018
+
+Сегодня только лекции.
+
+Time: 1:00 лекции
+
+## Day 56: Sep 24, 2018
+
+Сегодня только лекции: смотрю выступления с pycon.
+
+Time: 0:40 лекции
+
+## Day 57: Sep 25, 2018
+
+Сегодня только лекции: смотрю выступления с pycon.
+
+Time: 1:05 лекции
+
+## Day 58 Sep 26, 2018
+
+Сегодня только лекции: смотрю выступления с pycon и начала курс [Async Techniques and Examples in Python](https://training.talkpython.fm/courses/explore_async_python/async-in-python-with-threading-and-multiprocessing)
+
+Time: 2:30 лекции
+
+## Day 59 Sep 27, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 0:30 лекции
+
+## Day 60 Sep 28, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 0:40 лекции
+
+## Day 61 Sep 29, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 1:10 лекции
+
+## Day 62 Sep 30, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 1:00 лекции
+
+## Day 63 Oct 1, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 1:05 лекции
+
+## Day 64 Oct 2, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 0:50 лекции
+
+## Day 65 Oct 3, 2018
+
+Продолжаю смотреть курс Async Techniques and Examples in Python.
+
+Time: 0:50 лекции
+
+
 ## Статистика 1-20 день
 
 
